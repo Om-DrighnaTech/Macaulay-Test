@@ -25,7 +25,7 @@ import Enquiry from './components/Enquiry/Index';
 // import Achiever from './pages/Achiever';
 import Academics from './pages/Academics';
 import Facilities from './pages/Facilities';
-import Test from './pages/Test';
+
 import F1 from './components/f1/f1';
 
 
@@ -59,7 +59,6 @@ function App() {
           
           <Route path="/Academics" element={<Academics/>} />
           <Route path="/Facilities" element={<Facilities/>} />
-          <Route path="/Test" element={<Test />} />
           <Route path="/f1" element={<F1 />} />
 
 
