@@ -18,7 +18,7 @@ const AboutUs = () => {
 
           <div className="col-lg-6">
             <div className="about__content">
-              <h2>About Us</h2>
+              <h2>About Us :-</h2>
               {/* <h3>
               Empowering Minds, Enriching Lives
               </h3> */}
