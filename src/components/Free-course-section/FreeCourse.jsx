@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 import courseImg01 from "../../assests/schoolimg/WhatsApp Image 2024-03-18 at 11.30.48 AM.jpeg";
-import courseImg02 from "../../assests/schoolimg/courseImg02.svg";
 import courseImg03 from "../../assests/schoolimg/WhatsApp Image 2024-03-18 at 11.30.42 AM.jpeg";
 import courseImg04 from "../../assests/schoolimg/courseImg04.png";
 import FreeCourseCard from "./FreeCourseCard";
@@ -20,7 +19,7 @@ const freeCourseData = [
   {
     id: "02",
     title: "Physical Activity",
-    imgUrl: courseImg02,
+    imgUrl: courseImg01,
     students: 5.3,
     rating: 1.7,
   },

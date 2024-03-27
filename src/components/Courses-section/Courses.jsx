@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import courseImg1 from "../../assests/images/gallery/english.svg";
-import courseImg2 from "../../assests/images/gallery/math.svg";
-import courseImg3 from "../../assests/images/gallery/science.svg";
+
 import "./courses.css";
 import CourseCard from "./CourseCard";
 
@@ -20,7 +19,7 @@ const coursesData = [
     lesson: 12,
     students: 12.5,
     rating: 5.9,
-    imgUrl: courseImg2,
+    imgUrl: courseImg1,
   },
 
   {
@@ -29,7 +28,7 @@ const coursesData = [
     lesson: 12,
     students: 12.5,
     rating: 5.9,
-    imgUrl: courseImg3,
+    imgUrl: courseImg1,
   },
 ];
 
