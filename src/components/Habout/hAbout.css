@@ -1,0 +1,22 @@
+@media (max-width: 767px) {
+  .about-container {
+    padding: 0; /* Remove padding on small screens */
+  }
+  .tab-content {
+    margin-left: 30px;
+    text-align: left;
+    color: black;
+    margin-left: 10px;
+    font-family: "Andada Pro", serif;
+    margin-top: 41px;
+    margin-right: 20px;
+  }
+  .green-check-circle {
+    margin-left: -20px;
+  }
+
+  .flex-column.text-center .nav-link {
+    padding: 0.5rem 1rem; /* Adjust tab link padding for small screens */
+  }
+}
+

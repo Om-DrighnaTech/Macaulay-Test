@@ -1,0 +1,47 @@
+.newsletter {
+  background: #000000;
+  background: url('../../assests/images/Add your idea here (1280 x 720 px).gif') center/cover; /* Specify the path to your image */
+
+  padding: 60px;
+  border-radius: 15px;
+}
+
+
+
+.newsletter h2 {
+  color: #fff;
+}
+.subscribe input {
+  border: none;
+  outline: none;
+}
+
+.subscribe {
+  padding: 7px 10px;
+  background: #fff;
+  width: 45%;
+  margin: auto;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* CSS */
+.readable-animation {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #ffffff;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

@@ -1,0 +1,287 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+
+
+
+.abc{
+background: linear-gradient(170deg, #ff7e5f 0%, #feb47b 100%);
+background: linear-gradient(170deg, #f38181 0%, #fce38a 100%);
+background: linear-gradient(170deg, #7f5a83 0%, #0b486b 100%);
+background: linear-gradient(170deg, #ff758c 0%, #ff7eb3 100%);
+background: linear-gradient(170deg, #ff7979 0%, #ffbe76 100%);
+background: linear-gradient(170deg, #00d2d3 0%, #3a7bd5 100%);
+background: linear-gradient(170deg, #5f2c82 0%, #49a09d 100%);
+background: linear-gradient(170deg, #2c3e50 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #f794a4 0%, #fdd6bd 100%);
+background: linear-gradient(170deg, #1f4037 0%, #99f2c8 100%);
+background: linear-gradient(170deg, #333333 0%, #dddddd 100%);
+background: linear-gradient(170deg, #1a1a1a 0%, #f2f2f2 100%);
+background: linear-gradient(170deg, #4c4c4c 0%, #e6e6e6 100%);
+background: linear-gradient(170deg, #666666 0%, #cccccc 100%);
+background: linear-gradient(170deg, #737373 0%, #bfbfbf 100%);
+background: linear-gradient(170deg, #999999 0%, #e0e0e0 100%);
+background: linear-gradient(170deg, #a6a6a6 0%, #d9d9d9 100%);
+background: linear-gradient(170deg, #b3b3b3 0%, #cccccc 100%);
+background: linear-gradient(170deg, #d1d1d1 0%, #f2f2f2 100%);
+background: linear-gradient(170deg, #e6e6e6 0%, #ffffff 100%);
+background: linear-gradient(170deg, #dddddd 0%, #333333 100%);
+background: linear-gradient(170deg, #f2f2f2 0%, #1a1a1a 100%);
+background: linear-gradient(170deg, #e6e6e6 0%, #4c4c4c 100%);
+background: linear-gradient(170deg, #cccccc 0%, #666666 100%);
+background: linear-gradient(170deg, #bfbfbf 0%, #737373 100%);
+background: linear-gradient(170deg, #e0e0e0 0%, #999999 100%);
+background: linear-gradient(170deg, #d9d9d9 0%, #a6a6a6 100%);
+background: linear-gradient(170deg, #cccccc 0%, #b3b3b3 100%);
+background: linear-gradient(170deg, #f2f2f2 0%, #d1d1d1 100%);
+background: linear-gradient(170deg, #ffffff 0%, #e6e6e6 100%);
+background: linear-gradient(170deg, #262626 0%, #595959 100%);
+background: linear-gradient(170deg, #1c1c1c 0%, #4d4d4d 100%);
+background: linear-gradient(170deg, #2b2b2b 0%, #666666 100%);
+background: linear-gradient(170deg, #383838 0%, #707070 100%);
+background: linear-gradient(170deg, #444444 0%, #7d7d7d 100%);
+background: linear-gradient(170deg, #505050 0%, #999999 100%);
+background: linear-gradient(170deg, #595959 0%, #b3b3b3 100%);
+background: linear-gradient(170deg, #666666 0%, #cccccc 100%);
+background: linear-gradient(170deg, #707070 0%, #d9d9d9 100%);
+background: linear-gradient(170deg, #7d7d7d 0%, #e6e6e6 100%);
+background: linear-gradient(170deg, #8a8a8a 0%, #f2f2f2 100%);
+background: linear-gradient(170deg, #979797 0%, #ffffff 100%);
+background: linear-gradient(170deg, #6c3483 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #512e5f 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #4a235a 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #4527a0 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #2e86c1 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #1a5276 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #5d6d7e 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #1f618d 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #3498db 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #1abc9c 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #16a085 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #27ae60 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #f39c12 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #d35400 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #c0392b 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #7b241c 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #8e44ad 0%, #bdc3c7 100%);
+background: linear-gradient(170deg, #bdc3c7 0%, #8e44ad 100%);
+}
+
+.gr-0{
+  background: linear-gradient(170deg, #e0cccc 0%, #1e7adc 100%);
+  /* background-color: #d7d7d7; */
+/* background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%); */
+
+}
+
+.gr-1 {
+  background: linear-gradient(170deg, #151515c4 0%, #2c2c30 100%);
+  /* background-color: #d7d7d7;
+background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%); */
+
+}
+
+.gr-2 {
+  /* background: linear-gradient(170deg, #0571c9 0%, #004ca9 100%); */
+  background: linear-gradient(170deg, #484848c4 0%, #2c2c30 100%);
+}
+
+.gr-3 {
+  /* background: linear-gradient(170deg, #2f5cc4 0%, #125fb6 100%); */
+  background: linear-gradient(170deg, #484848c4 0%, #2c2c30 100%);
+  /* background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%); */
+}
+
+.gr-4{
+  /* background: linear-gradient(170deg, #abaaaa 0%, #595959 100%); */
+  background: linear-gradient(170deg, #484848c4 0%, #2c2c30 100%);
+}
+
+* {
+  transition: 0.5s;
+}
+
+
+.align-middle {
+  position: relative;
+  top: 50%;
+  /* transform: translateY(-50%); */
+}
+
+.column {
+  margin-top: 30rem;
+  padding-left: 3rem;
+  &:hover {
+    padding-left: 0;
+    .card .txt {
+      margin-left: 1rem;
+      h1,
+      p {
+        color: rgba(255, 255, 255, 1);
+        opacity: 1;
+      }
+    }
+    a {
+      color: rgba(255, 255, 255, 1);
+      &:after {
+        width: 10%;
+      }
+    }
+  }
+}
+.card {
+  min-height: 170px;
+  margin: 28px;
+  padding: 1.7rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: rgba(0, 0, 0, 1);
+  letter-spacing: 0.05rem;
+  font-family: "Oswald", sans-serif;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
+  .txt {
+    /* margin-left: -3rem; */
+    /* display: none; */
+    z-index: 1;
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: white;
+      /* margin-left: 40px; */
+
+    }
+    p {
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 0rem;
+      line-height: 20px;
+      margin-top: 33px;
+      opacity: 0;
+      color: rgba(255, 255, 255, 1);
+      /* color: #000000 !important; */
+    }
+  }
+  a {
+    z-index: 3;
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 1rem;
+    position: relative;
+    bottom: -0.5rem;
+    text-transform: uppercase;
+    &:after {
+      content: "";
+      display: inline-block;
+      height: 0.5em;
+      width: 0;
+      margin-right: -100%;
+      margin-left: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 1);
+      transition: 0.5s;
+    }
+  }
+  .ico-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+}
+.fontIcon{
+  opacity: 0.4;
+  width: 50% !important;
+    height: 60% !important;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    right: -40%;
+    top: 20%;
+}
+/* .column:hover .fontIcon{
+  height: 70% !important;
+  width: 60% !important;
+    top: 15%;
+} */
+
+/* YourComponent.module.css */
+.column {
+  position: relative;
+  overflow: hidden;
+}
+
+.fontIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -30%);
+  transition: all 0.3s ease;
+}
+
+.column:hover .fontIcon {
+  height: 70%;
+  width: 60%;
+  top: 15%;
+}
+/**/
+.morebtn{
+  cursor: pointer;
+}
+
+.txtFirst{
+  z-index: 1;
+  text-align: center;
+  font-size: 1.5rem;
+      font-weight: 300;
+      /* text-transform: uppercase; */
+}
+
+
+
+/* --------pop box css------ */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: white !important;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 90vw;
+  height: 90vh;
+  /* overflow: scroll; */
+}
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.obg{
+  background-image:url('../../assests/images/obg.gif') ;
+  background-size: cover;
+  background-position:center ;
+  background-repeat: no-repeat; 
+}

@@ -1,0 +1,150 @@
+ const crausalData = [
+    { id: 1, image: Imageac1, heading: "Discover the Legacy of Excellence: Welcome to Macaulay School", link: 'www.google.com' },
+    { id: 2, image: Imageac2, heading: "Discover the Legacy of Excellence: Welcome to Macaulay School", link: 'www.google.com' },
+    { id: 3, image: Imageac3, heading: 'Discover the Legacy of Excellence: Welcome to Macaulay School', link: 'www.google.com' },
+  ];
+
+
+
+
+<div>
+          <Carousel>
+            {crausalData.map(item => (
+              <Carousel.Item key={item.id}>
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                    // padding: '40px',
+                    paddingTop: '30px',
+                    paddingBottom: '30px',
+                    textAlign: 'center',
+                    color: '#fff',
+                    width: '409px',
+                    lineHeight: '2px',
+                    
+                    transition: 'background-color 0.3s ease', // Add transition for smooth effect
+                    cursor: 'pointer' // Change cursor on hover
+                  }}
+                  // onMouseEnter={(e) => { 
+                  //   e.target.style.transform = 'scale(1.1)'; // Scale up on hover
+                  //   e.target.style.color = '#ffcc00'; // Change text color on hover
+                  // }}
+                  // onMouseLeave={(e) => { 
+                  //   e.target.style.transform = 'scale(1)'; // Reset scale on hover out
+                  //   e.target.style.color = '#fff'; // Reset text color on hover out
+                  // }}
+                  
+                >
+                
+                  <h2 style={{ fontSize: '24px', marginBottom: '10px', textDecoration: 'none' }}>{item.heading}</h2>
+                  {/* <a
+                    style={{
+                      backgroundColor: 'rgba(255, 255, 255, 0.3)',
+                      border: 'none',
+                      color: '#fff',
+                      padding: '10px 20px',
+                      fontSize: '16px',
+                      fontWeight: 'bold',
+                      cursor: 'pointer',
+                      transition: 'background-color 0.3s ease',
+                      textDecoration: 'none'
+                    }}
+                    href="/Ahome"
+                    rel="noopener noreferrer"
+                  >
+                    KNOW MORE
+                  </a> */}
+                </div>
+                <img
+                  style={{ width: '100%', height: '700px', }}
+                  src={item.image}
+                  alt=""
+                />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+        {/* <div style={{ backgroundColor: 'black', color: 'white', height: '100px' }}>
+          <h2 style={{ paddingTop: '23px', textAlign: 'center' }}>About Us</h2>
+        </div> */}
+
+
+
+
+
+          <div>
+        
+        <div>         
+
+          <Grid container spacing={2} style={{ marginTop: '0px', marginBottom: '50px', backgroundColor: 'black', color: 'white', paddingBottom: '50px', paddingTop: '50px', textAlign: 'center' }}>
+
+            {/* <Grid item xs={12} sm={4} sx={{ textAlign: 'center' }}>
+              <FontAwesomeIcon icon={faBook} style={{ fontSize: 40, color: 'white', marginBottom: '5px' }} />
+              <Typography variant="body2" color="white" sx={{ fontWeight: "bolder", fontSize: "20px" }}>
+                Curriculum
+              </Typography>
+              <Typography variant="body2" color="white">
+                Explore our tailored curriculum, meeting every student's academic and personal growth needs.
+              </Typography>
+            </Grid> */}
+            <Grid item xs={12} sm={4} sx={{ textAlign: 'center' }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '10px' }}>
+                <FontAwesomeIcon icon={faBook} style={{ fontSize: 40, color: 'white', marginRight: '10px' }} />
+                <Typography variant="body2" color="white" sx={{ fontWeight: 'bolder', fontSize: '20px', lineHeight: '1' }}>
+                  Curriculum
+                </Typography>
+              </div>
+              <Typography variant="body2" color="white">
+                Explore our tailored curriculum, meeting every student's academic and personal growth needs.
+              </Typography>
+            </Grid>
+
+            {/* <Grid item xs={12} sm={4} sx={{ textAlign: 'center' }}>
+              <FontAwesomeIcon icon={faBuilding} style={{ fontSize: 40, color: 'white', marginBottom: '5px' }} />
+              <Typography variant="body2" color="white" sx={{ fontWeight: "bolder", fontSize: "20px" }}>
+                Campus Facilities
+              </Typography>
+              <Typography variant="body2" color="white">
+                Discover our exceptional campus facilities, tailored to cater to the diverse needs of our students.
+              </Typography>
+            </Grid> */}
+
+            <Grid item xs={12} sm={4} sx={{ textAlign: 'center' }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '10px' }}>
+                <FontAwesomeIcon icon={faBuilding} style={{ fontSize: 40, color: 'white', marginRight: '10px' }} />
+                <Typography variant="body2" color="white" sx={{ fontWeight: 'bolder', fontSize: '20px', lineHeight: '1' }}>
+                  Campus Facilities
+                </Typography>
+              </div>
+              <Typography variant="body2" color="white">
+                Discover our exceptional campus facilities, tailored to cater to the diverse needs of our students.
+              </Typography>
+            </Grid>
+
+            {/* <Grid item xs={12} sm={4} sx={{ textAlign: 'center' }}>
+              <FontAwesomeIcon icon={faCheckCircle} style={{ fontSize: 50, color: 'white', marginBottom: '4px' }} />
+              <Typography variant="body2" color="white" sx={{ fontWeight: "bolder", fontSize: "20px" }}>
+                Qualified Teachers
+              </Typography>
+              <Typography variant="body2" color="white">
+                Learn from our dedicated team of highly qualified and experienced teachers.
+              </Typography>
+            </Grid> */}
+            <Grid item xs={12} sm={4} sx={{ textAlign: 'center' }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '10px' }}>
+                <FontAwesomeIcon icon={faCheckCircle} style={{ fontSize: 50, color: 'white', marginRight: '10px' }} />
+                <Typography variant="body2" color="white" sx={{ fontWeight: 'bolder', fontSize: '20px', lineHeight: '1' }}>
+                  Qualified Teachers
+                </Typography>
+              </div>
+              <Typography variant="body2" color="white">
+                Learn from our dedicated team of highly qualified and experienced teachers.
+              </Typography>
+            </Grid>
+          </Grid>
+        </div>
+      </div>

@@ -1,0 +1,75 @@
+.teachers {
+  background: #eeecf0;
+}
+.shapeOm {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  width: 300px;
+  height: 300px;
+  background-image: url(../../assests/images/default_user.png);
+}
+
+.teaxherCard {
+  background: url(../../assests/images/gallery/tcrbgn.png) no-repeat;
+  /* margin: 5px; */
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.teacherImage {
+  text-align: center;
+}
+
+.teacherImage img {
+  /* width: 100%; */
+  width: 80%;
+  border-radius: 25px;
+}
+.teacherDetails {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.academicsSec-imgdiv img {
+  width: 100%;
+}
+.imgdivbdr img{
+  background-color: #372a11;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3.2px solid #b0852a;
+}
+.academicsSec-heading {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 50px;
+}
+.yloClr {
+  background: #fbde4e;
+}
+.pnkclr {
+  background: #fc7ecf;
+  color: #ffffff;
+}
+.skyclr {
+  background: #8cd7e7;
+}
+.blkclr {
+  background: #000000;
+  color: #ffffff;
+}
+.academicsSec-cntdiv p {
+  text-align: center;
+}
+.clm-padng {
+  padding: 0px 30px !important;
+}
+.clm-dwn {
+  margin-top: 100px !important;
+}
+
+@media (max-width: 767px) {
+  .clm-dwn {
+   margin-top: 0px 
+  }
+}

@@ -1,0 +1,381 @@
+.Acurriheading{
+  background: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Achead{
+  color: #ffffff;
+  text-align: center;
+
+}
+
+/* -----------areas-of-curriculum-section-left-img------------------ */
+.areas-of-curriculum-section-left-img {
+  padding: 30px 0;
+  background-color: white;
+}
+
+
+
+.areas-of-curriculum-section-right-img {
+  background-color: #a1aedd42;
+  padding: 30px 0;
+}
+
+/* Image Styles */
+
+.areas-of-curriculum-img {
+  display: flex;
+  justify-content: center;
+}
+
+.areas-of-curriculum-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.areas-of-curriculum-container-right-img {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+
+
+.areas-of-curriculum-container-left-img {
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+/* --------------------Text Styles---------------------------------- */
+
+
+.areas-of-curriculum-container,
+.areas-of-curriculum-heading-title,
+.areas-of-curriculum-paragraph {
+  font-family: "Arial", sans-serif;
+}
+
+
+
+/* heading style */
+
+.areas-of-curriculum-heading-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.areas-of-curriculum-heading-title:hover {
+  transform: scale(1.1);
+  color: #ff6b6b;
+}
+
+/*------------ paragraph style----------------------------------- */
+.areas-of-curriculum-paragraph p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  text-align: justify;
+  transition: color 0.3s ease-in-out;
+}
+
+.areas-of-curriculum-paragraph p:hover {
+  color: #4caf50;
+  /* Change color on hover */
+}
+
+.areas-of-curriculum-heading {
+  position: relative;
+  color: #007bff;
+  font-size: 24px;
+  justify-content: center;
+  display: flex;
+
+}
+
+.areas-of-curriculum-heading::after {
+  content: "";
+
+  background-color: #007bff;
+  /* Line color */
+  position: absolute;
+  content: "";
+  text-align: center;
+  width: 100px;
+  height: 2px;
+  background-color: #007bff;
+  position: absolute;
+  bottom: 5px;
+}
+
+.areas-of-curriculum-paragraph {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 15px;
+}
+
+/* Optional: Add a border or other styling to the paragraph if desired */
+.areas-of-curriculum-paragraph p {
+  border-left: 3px solid #007bff;
+  padding-left: 15px;
+}
+
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .areas-of-curriculum-img img {
+    margin-bottom: 20px;
+  }
+}
+
+/* --------------------areas-of-curriculum-container-right-paragraph------------------------------------ */
+
+/* -------------------Right paragraph-------------------------------- */
+
+.areas-of-curriculum-container-right-paragraph {
+  margin-right: 20px;
+}
+
+/* -------------------left paragraph-------------------------------- */
+.areas-of-curriculum-container-left-paragraph {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* Add your custom styles to improve the visual appearance */
+
+
+
+/* ....................................................................................... */
+
+
+
+
+.areas-curri-section{
+
+  /* background: url("../../assests/ImageCurriclm/bgtransp.png"); */
+
+/* background-color: #FFAB44;
+background:  url("../../assets/images/Untitled-2.png"); */
+/* background-repeat: no-repeat; */
+    /* background-position: -48px 0px; */
+    /* background-size: cover; */
+    /* border-radius: 20px 20px 20px 20px; */
+    position: relative;
+    margin: auto;
+    
+
+    /* margin-bottom: -100px; */
+    /* background-image: transition  0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+}
+.areas-curri-section::before{
+  content: "";
+  background: url("../../assests/ImageCurriclm/bgtransp.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.areas-curri-section2{
+
+  background: whitesmoke;
+       background-position: -48px 0px;
+       background-size: cover;
+       border-radius: 20px 20px 20px 20px;
+       position: relative;
+     min-height: 1px;
+     padding-top: 30px;
+     padding-bottom: 20px;
+   }
+.areas-curri-container{
+  position: relative;
+}
+.areas-curri-img {
+margin: auto;
+}
+
+ 
+
+
+.areas-curri-column{
+width: 100%;
+    position: relative;
+   /* padding-left: 90px; */
+    display: flex;
+    margin-top: -65px;
+}
+.areas-curri-column1{
+  width: 100%;
+      position: relative;
+     /* padding-right: 90px; */
+      display: flex;
+      margin-top: -65px;
+  }
+
+.areas-curri-container {
+  display: flex;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+flex-wrap: wrap;
+align-content: flex-start;
+
+}
+
+.areas-curri-element-bgtitle2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+
+.areas-curri-bgtitle2-container {
+  margin: 23px 0px 10px 0px;
+}
+
+.heading-bgtitle2 {
+  /* color: rgba(233, 4, 4, 0.16); */
+  color: rgb(25 79 169 / 14%);
+  font-family: "Montserrat", Sans-serif;
+  font-size: 200px;
+  font-weight: 800;
+  letter-spacing: -1.9px;
+}
+
+
+/* headingtitle2 text title */
+
+.areas-curri-heading2{
+  margin-bottom: 10px;
+  text-align: center;
+  z-index: 9;
+  width: 100%;
+  position: relative;
+
+
+}
+
+
+.container-areas-curri-heading2 {
+
+  margin: -155px 0px 0px 0px;
+  padding: 0px 10px 0px 10px;
+
+  text-align: center;
+}
+
+
+
+
+.areas-heading2-title{
+  font-size: 45px;
+  line-height: 1.1em;
+
+  color: #be103c;
+  font-family: "Helvetica", Sans-serif;
+ 
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+ 
+  letter-spacing: -1.4px;
+
+}
+/* areas-curri pragraph */
+
+.areas-curri-heading2-text{
+  text-align: center;
+  z-index: 9;
+  width: 100%;
+  position: relative;
+  
+
+
+
+}
+.areas-curri-text-para{
+  margin: -12% 0% 0% 0%;
+  text-align: center;
+
+}
+
+
+.areas-curri-row-section{
+  padding-top: 0px;
+  padding-bottom: 0px;  
+}
+
+.areas-curri-text-para::first-letter {
+  text-transform: capitalize;
+  
+}
+
+.areas-curri-para{
+
+  color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 1.7em; */
+    padding: 0px;
+    margin: 0;
+    text-align: justify;
+
+}
+
+
+/* areas-curri-img */
+
+.areas_curri_section  {
+  margin: auto;
+
+  
+
+  
+}
+
+.areas-curri-img{
+  margin: auto !important;
+}
+.areas-curri-img img{
+
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+    width: 100%; /* Set to your desired width */
+    
+    border-radius: 7%;
+    box-sizing: border-box;
+    
+    position: relative;
+    display: block; /* Eliminate extra space below the image */
+  
+}
+
+
+  .imgzindex{
+    z-index: 1;
+    width: 150px !important;
+    height: 150px !important;
+  }

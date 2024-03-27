@@ -1,0 +1,30 @@
+.testimonial__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial__img{
+  margin-right: 50px;
+}
+
+.testimonial__content h2 {
+  font-weight: 600;
+}
+.w-100{
+  width: 1100px;
+ 
+}
+@media (max-width: 991px){
+  .testimonial__wrapper{
+    align-items: unset;
+    
+  }
+
+  .testimonial__img img{
+    height: 450px;
+  }
+ 
+}
+  
+

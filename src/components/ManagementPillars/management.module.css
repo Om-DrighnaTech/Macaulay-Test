@@ -1,0 +1,58 @@
+/* 
+
+.page-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.management-card {
+    margin-bottom: 50px;
+}
+
+.management-details {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.management-image {
+    margin-left: 20px;
+    margin-right: 20px; 
+} */
+
+
+/* Add this CSS to your existing stylesheet or create a new stylesheet for responsiveness */
+/* Larger screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Adjust styles here */
+  /* For example, you can change the width of the image containers */
+  div[style*="display: flex"] > div {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+/* Medium-sized screens (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Adjust styles here */
+  /* For example, you can change the width of the image containers */
+  div[style*="display: flex"] > div {
+    width: 180px;
+    height: 250px;
+  }
+}
+
+/* Small screens (up to 575px) */
+@media (max-width: 575px) {
+  /* Adjust styles here */
+  /* For example, you can stack the image containers vertically */
+  div[style*="display: flex"] {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div[style*="display: flex"] > div {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}

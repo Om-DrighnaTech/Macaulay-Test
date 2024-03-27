@@ -1,0 +1,63 @@
+
+
+.gallery-img-box{
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+}
+.gallery-img-box img{
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+}
+.gallery-img-box img:hover {
+transform: scale(1.1);
+}
+.gallery-page-section h1{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 40px;
+}
+
+.gallery.page.details{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.content-img{
+  overflow: hidden;
+}
+
+.content-img-left img{
+  width: 100%;
+ 
+}
+.content-img-right img{
+  width: 100%;
+  /* margin-left: -155px; */
+}
+.graycolor{
+  background-color: #e3e1e147;
+  
+}
+.pdbotm{
+  padding-bottom: 30px;
+}
+
+.hdsz{
+  height: 100px;
+  text-align: center;
+  /* margin: auto; */
+  background-color: black;
+}
+.hdsz h2{
+color: white;
+
+padding-top: 33px;
+}
+.gallery_content_head{
+  font-weight: 600;
+}
+/* Gallery.jsx ----- css --- ends here */

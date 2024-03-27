@@ -1,0 +1,90 @@
+/* f1.css */
+
+/* Custom Instagram icon with gradient background */
+.custom-instagram-icon {
+  background: linear-gradient(to right, #FEDA75, #FA7E1E, #D62976, #962FBF, #4F5BD5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Style the social media icons */
+.icon {
+  font-size: 22px;
+}
+
+/* Style the black icons */
+.black-icon {
+  color: black !important;
+}
+
+/* Style the no-underline links */
+.no-underline {
+  text-decoration: none;
+}
+
+/* Style the black text */
+.text-black {
+  color: black;
+}
+
+/* Style the margin for mx-auto mb-4 class */
+.mx-auto.mb-4 {
+  margin: 25px; /* Removed quotes around 25px */
+}
+
+.text-center text-lg-start text-muted {
+ margin-bottom: 0px;
+}
+
+.text-center {
+  margin-bottom: 0px !important;
+}
+
+.text-center text-lg-start text-muted section, footer {
+  padding-bottom: 0px;
+}
+
+footer {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mx-auto.mb-4 {
+      width: 50%;
+      float: left;
+      clear: none;
+      margin-right: 20px; /* Adjust the value as needed */
+
+  }
+
+  .mx-auto.mb-md-0.mb-4 {
+      width: 50%;
+      float: right;
+      clear: none;
+      margin-right: 20px; /* Adjust the value as needed */
+
+  }
+
+  .text-center {
+    margin-bottom: 0px;
+  }
+
+  .mb-3 {
+    margin-left: -230px;
+  }
+
+  .icon {
+    margin-left: -230px;
+  }
+
+ 
+}
+
+
+@media (max-width: 768px) {
+  .email-text {
+    margin-left: 50px; /* Adjust as needed */
+    justify-content: center;
+  }
+}

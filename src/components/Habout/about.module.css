@@ -1,0 +1,49 @@
+/* .myDiv {
+    position: relative;
+    z-index: 1;
+}
+
+.myDiv .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../../assests//images/gallery/bgtransp.png') center center; 
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+} */
+
+
+.about-container {
+    padding: 0 15px; /* Default padding for the container */
+  }
+  
+  .about-content {
+    margin: 0 auto; /* Center the content */
+    max-width: 1200px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 767px) {
+    .about-container {
+      padding: 0; /* Remove padding on small screens */
+    }
+    .custom-tabs-content {
+      margin-left: 16px;
+      text-align: left;
+      color: black;
+      margin-left: 10px;
+      font-family: "Andada Pro", serif;
+      margin-top: 41px;
+      margin-bottom: 100px;
+    }
+
+    .flex-column.text-center .nav-link {
+      padding: 0.5rem 1rem; /* Adjust tab link padding for small screens */
+    }
+  }
+
+  

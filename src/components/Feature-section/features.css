@@ -1,0 +1,67 @@
+.single__feature h2 i {
+  font-size: 2.5rem;
+}
+
+.ourfetr{
+
+}
+
+.single__feature h6 {
+  font-weight: 600;
+}
+.text-center mb-5{
+  font-weight: 600;
+}
+.section {
+  background-image: url("../../assests/images/f1.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-background{
+  position: relative;
+  padding: '30px';
+  background: url(../../assests/images/f1.gif) no-repeat;
+  background-size: cover;
+
+}
+
+.ourfetr{
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+
+/* .single__feature{
+  margin-bottom: 25px;
+} */
+
+@media (max-width: 990px) {
+ 
+  .single_feature_col {
+    margin-bottom: 25px !important;
+  }
+  /* .free__course__img img{
+    margin-top: -30px;
+  } */
+  
+  .ourfetr{
+    margin-top: -20px;
+
+  }
+
+  
+}
+
+@media  (max-width: 776px) {
+  .ourfetr{
+    margin-top: -20px;
+
+  }
+
+  
+  .single__feature{
+    margin-bottom: 25px;
+  }
+}
+
+

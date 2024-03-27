@@ -1,0 +1,47 @@
+.topCrslHead{
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 20px 0;
+}
+.topmarq{
+  padding-top: 0px !important;
+}
+
+.studentCard {
+  width: 190px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+  font-family: inherit;
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+}
+
+
+.studentCard span {
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+
+.studentCard .percentage {
+  font-weight: 400;
+  color: black;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 1em;
+}
+
+.studentCard .img {
+  width: 150px;
+  height: 150px;
+  background: #e8e8e8;
+  border-radius: 100%;
+  margin: auto;
+}
