@@ -14,7 +14,7 @@ import im3 from "../../assests/ImageCurriclm/im3.png";
 import im4 from "../../assests/ImageCurriclm/im4.png";
 import im5 from "../../assests/ImageCurriclm/im5.png";
 import im6 from "../../assests/ImageCurriclm/im6.png";
-import approach3 from "../../assests/ImageCurriclm/approach3.svg";
+import approach3 from "../../assests/ImageCurriclm/im6.png";
 
 
 

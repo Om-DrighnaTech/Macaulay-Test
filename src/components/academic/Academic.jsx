@@ -11,11 +11,11 @@ import Aswath from "../../assests/images/gallery/Aswath.png"
 import Surekha from "../../assests/images/gallery/Surekha.png"
 import Nagarathna from "../../assests/images/gallery/Nagarathna.png"
 import Kalai from "../../assests/images/gallery/Kalai.png"
-import PrePrimary from "../../assests/images/gallery/PrePrimary.svg"
-import PrimarySchool from "../../assests/images/gallery/PrimarySchool.svg"
-import MiddleSchool from "../../assests/images/gallery/MiddleSchool.svg"
-import SecondarySchool from "../../assests/images/gallery/SecondarySchool.svg"
-import F1 from "../f1/f1"
+// import PrePrimary from "../../assests/images/gallery/PrePrimary.svg"
+// import PrimarySchool from "../../assests/images/gallery/PrimarySchool.svg"
+// import MiddleSchool from "../../assests/images/gallery/MiddleSchool.svg"
+// import SecondarySchool from "../../assests/images/gallery/SecondarySchool.svg"
+// import F1 from "../f1/f1"
 
 import "./academic.css"
 
@@ -123,7 +123,7 @@ const Academic = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6 clm-padng clm-dwn">
               <div className="academicsSec-imgdiv imgdivbdr">
-                <img src={PrePrimary} alt="" />
+                {/* <img src={PrePrimary} alt="" /> */}
               </div>
               <div className="academicsSec-cntdiv">
                 <h5 className="academicsSec-heading yloClr">
@@ -133,7 +133,7 @@ const Academic = () => {
             </div>
             <div className="col-lg-3 col-md-6 clm-padng">
               <div className="academicsSec-imgdiv imgdivbdr">
-                <img src={PrimarySchool} alt="" />
+                {/* <img src={PrimarySchool} alt="" /> */}
               </div>
               <div className="academicsSec-cntdiv">
                 <h5 className="academicsSec-heading pnkclr">Primary School</h5>
@@ -142,7 +142,7 @@ const Academic = () => {
             </div>
             <div className="col-lg-3 col-md-6 clm-padng clm-dwn">
               <div className="academicsSec-imgdiv imgdivbdr">
-                <img src={MiddleSchool} alt="" />
+                {/* <img src={MiddleSchool} alt="" /> */}
               </div>
               <div className="academicsSec-cntdiv">
                 <h5 className="academicsSec-heading skyclr">Middle School</h5>
@@ -151,7 +151,7 @@ const Academic = () => {
             </div>
             <div className="col-lg-3 col-md-6 clm-padng">
               <div className="academicsSec-imgdiv">
-                <img src={SecondarySchool} alt="" />
+                {/* <img src={SecondarySchool} alt="" /> */}
               </div>
               <div className="academicsSec-cntdiv">
                 <h5 className="academicsSec-heading blkclr">Secondary School</h5>
